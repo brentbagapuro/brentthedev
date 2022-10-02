@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Microservice 2</title>
+        <title>Brent Bagapuro</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

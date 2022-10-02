@@ -1,8 +1,12 @@
 // import Container from '@/components/Container'
-// import Hero from '@/components/Homepage/Hero'
+import Hero from '@/components/Homepage/Hero'
 
 const Homepage = () => {
-  return <div>Hello</div>
+  return (
+    <div>
+      <Hero />
+    </div>
+  )
 }
 
 export default Homepage

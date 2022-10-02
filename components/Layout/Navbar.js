@@ -29,10 +29,12 @@ const Navbar = ({
   }
 
   return (
-    <div className="w-full bg-primary">
+    <div className="w-full bg-transparent absolute top-0 left-0">
       <div className="max-w-[1280px] m-auto p-4 flex justify-between items-center">
         <div className="cursor-pointer">
-          <h2 className="text-white font-bold text-2xl">B</h2>
+          <h2 className="text-white font-bold text-2xl tracking-tightest">
+            brentthedev
+          </h2>
         </div>
         <nav className="flex items-center">
           <ul className="space-x-8 text-white hidden lg:flex">
