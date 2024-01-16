@@ -20,7 +20,8 @@ const GenerateSphere = ({ canvasRef, meshRef, shapeContainer }) => {
   useEffect(() => {
     window.addEventListener('resize', () => {
       camera.aspect =
-        shapeContainer.current.offsetWidth / shapeContainer.current.offsetHeight
+        shapeContainer?.current?.offsetWidth /
+        shapeContainer?.current?.offsetHeight
       camera.updateProjectionMatrix()
       setSize(
         shapeContainer.current.offsetWidth,
@@ -42,20 +43,20 @@ const GenerateSphere = ({ canvasRef, meshRef, shapeContainer }) => {
 
   // Rotation animation
   useFrame(({ clock }) => {
-    meshRef.current.rotation.x = Math.cos(clock.getElapsedTime() / 8) * Math.PI
-    meshRef.current.rotation.y = Math.cos(clock.getElapsedTime() / 16) * Math.PI
+    meshRef.current.rotation.x = Math.cos(clock.getElapsedTime() / 3) * Math.PI
+    meshRef.current.rotation.y = Math.cos(clock.getElapsedTime() / 6) * Math.PI
   })
 
   // onMouseMove
-  useFrame(({ mouse }) => {
-    const x = (mouse.x * viewport.width) / 750
-    const y = (mouse.y * viewport.height) / 750
-    shapeRef.current.rotation.set(-y, x, 0)
-  })
+  // useFrame(({ mouse }) => {
+  //   const x = (mouse.x * viewport.width) / 750
+  //   const y = (mouse.y * viewport.height) / 750
+  //   shapeRef.current.rotation.set(-y, x, 0)
+  // })
 
   // Generate points
   const points = useMemo(() => {
-    const count = 10000
+    const count = 8000
     let positions = []
     for (let i = 0; i < count; i++) {
       const theta = Math.acos(MathUtils.randFloatSpread(2))
@@ -93,7 +94,7 @@ const ThreeSphere = () => {
 
   return (
     <div
-      className="flex flex-1 justify-center items-center w-full max-w-[650px] mx-auto min-[150px] lg:min-h-[650px]"
+      className="flex-1 justify-center items-center hidden lg:flex w-full max-w-[650px] mx-auto min-[150px] lg:min-h-[650px]"
       ref={shapeContainer}
     >
       <Suspense fallback={<p>Loading...</p>}>

@@ -4,12 +4,12 @@ import MobileNavDrawer from './MobileNavDrawer'
 
 const navLinks = [
   {
-    label: 'About',
-    url: '#',
+    label: 'Projects',
+    url: '#projects',
   },
   {
-    label: 'Projects',
-    url: '#',
+    label: 'Contact',
+    url: '#contact',
   },
 ]
 

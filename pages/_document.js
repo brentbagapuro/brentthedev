@@ -11,6 +11,7 @@ export default function Document() {
           crossOrigin="true"
         />
       </Head>
+
       <body>
         <Main />
         <NextScript />

@@ -6,7 +6,7 @@ const MobileNavDrawer = ({ drawerRef, navLinks }) => (
     ref={drawerRef}
   >
     <div className="p-4">
-      <h2 className="font-bold text-2xl">Microservice2</h2>
+      <h2 className="text-secondary text-xl tracking-widest">{`<BrentTheDev/>`}</h2>
     </div>
     <nav>
       {navLinks.map((link, i) => {
@@ -16,7 +16,7 @@ const MobileNavDrawer = ({ drawerRef, navLinks }) => (
             key={i}
           >
             <Link href={link.url}>
-              <a>{link.label}</a>
+              <a className="text-secondary">{link.label}</a>
             </Link>
           </div>
         )

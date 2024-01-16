@@ -29,15 +29,15 @@ const Navbar = ({
   }
 
   return (
-    <div className="w-full bg-transparent absolute top-0 left-0">
-      <div className="max-w-[1280px] m-auto p-4 flex justify-between items-center">
+    <div className="w-full bg-transparent absolute top-0 left-0 z-50">
+      <div className="max-w-[1280px] m-auto px-4 md:px-8 py-8 flex justify-between items-center">
         <div className="cursor-pointer">
-          <h2 className="text-white font-bold text-2xl tracking-tightest">
-            brentthedev
+          <h2 className="font-code font-light text-xl tracking-widest">
+            {`<BrentTheDev/>`}
           </h2>
         </div>
         <nav className="flex items-center">
-          <ul className="space-x-8 text-white hidden lg:flex">
+          <ul className="space-x-8 hidden lg:flex">
             {navLinks.map((link, i) => {
               return (
                 <li key={i}>
