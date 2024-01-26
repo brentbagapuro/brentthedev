@@ -4,6 +4,7 @@ import Bar from '../Bar'
 
 const projectList = [
   {
+    id: 'invedent',
     title: 'Invedent',
     barColor: 'from-background to-secondary',
     coverImage: '/projects/invedent.png',
@@ -29,6 +30,7 @@ const projectList = [
     contribution: `I developed key features of the company’s software such as products management, pricing management, shop and inventory functionality, and more.<br/><br/>On top of that, I took ownership of the existing codebase and in less than a year, together with my team, we optimized up to roughly 80% of the codebase by converting all existing JavaScript to TypeScript, wrote unit tests, optimized page load times, and applied engineering design principles and best practices.`,
   },
   {
+    id: 'butter-insurance',
     title: 'Butter Insurance',
     barColor: 'from-background to-secondary/90',
     coverImage: '/projects/butter.png',
@@ -51,6 +53,7 @@ const projectList = [
       'Together with one other dev engineer, we teamed up to revamp their old app. The old app went through a number of different past engineers which left numerous unknown bugs and a codebase that was difficult to add new features onto. We both decided to create a separate and fresh repository to build a more modern and optimized app, while also doing our best to implement new features onto the old app. In under two months, we were able to fully transition the old app to our more optimized and modern repository, and release to end-users.',
   },
   {
+    id: 'dtcc',
     title: 'DTCC',
     barColor: 'from-background to-secondary/80',
     coverImage: '/projects/dtcc.png',
@@ -71,6 +74,7 @@ const projectList = [
       'I was given the responsibility to build most of the front end UI. I created various reusable components and followed a Figma design to create a pixel-perfect code translation. I also integrated websockets to continuously fetch real-time data from a decoupled API that was handled by my collegue.',
   },
   {
+    id: 'housecall-md',
     title: 'Housecall MD',
     barColor: 'from-background to-secondary/75',
     coverImage: '/projects/housecallmd.png',
@@ -95,6 +99,7 @@ const projectList = [
       'I contributed full stack development of their management system application creating pages like the admin page, profile page, appointment flow pages, login page, and more. Reusable components such as Button, Modal, Toast, Blog, Testimonial and more. Backend functionalities such as sending email with SendGrid, sms with Twilio, payment processing with Stripe, authentication, and CRUD operations across the app.',
   },
   {
+    id: 'alpha-md',
     title: 'Alpha MD',
     barColor: 'from-background to-secondary/70',
     coverImage: '/projects/alphamd.png',
@@ -117,6 +122,7 @@ const projectList = [
       'I developed backend functionalities such as email sending with SendGrid, SMS with Twilio, payment processing with Stripe, authentication, and various CRUD operations across the application.',
   },
   {
+    id: 'melde-construction',
     title: 'Melde Construction',
     barColor: 'from-background to-secondary/60',
     coverImage: '/projects/melde.png',
@@ -136,6 +142,7 @@ const projectList = [
     contribution: `I spearheaded and took full responsibility for the development of this client's website from start to finish. Their website includes a step-by-step webflow conversion path that starts when the user clicks “Start Your Journey” and displays tailored information for the right persona. I completed the development of their website singlehandedly which included adding all data to Contentful and displaying the contents to the front end.`,
   },
   {
+    id: 'landvisions',
     title: 'Landvisions',
     barColor: 'from-background to-secondary/60',
     coverImage: '/projects/landvisions.png',

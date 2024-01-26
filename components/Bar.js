@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from 'react'
+import { useRouter } from 'next/router'
 import { useIsVisible } from 'react-is-visible'
 import classNames from 'classnames'
 import Project from './Project'
@@ -7,6 +8,7 @@ import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/20/solid'
 const Bar = ({ project }) => {
   const [isInitialized, setIsInitialized] = useState(false)
   const [active, setIsActive] = useState(false)
+  const router = useRouter()
   const nodeRef = useRef()
   const isVisible = useIsVisible(nodeRef)
   const { title, barColor } = project
@@ -19,6 +21,12 @@ const Bar = ({ project }) => {
     'hover:duration-500 max-h-[10000px]': active,
     'max-h-0': !active,
   })
+
+  useEffect(() => {
+    if (router.asPath.includes(project.id)) {
+      setIsActive(true)
+    }
+  }, [router, project.id])
 
   useEffect(() => {
     if (isVisible) {
@@ -41,6 +49,7 @@ const Bar = ({ project }) => {
       // @ts-ignore
       ref={nodeRef}
       className="lg:pr-8"
+      id={project.id}
     >
       <button
         className={`relative border-secondary px-6 py-2 text-xl lg:text-2xl text-right font-normal transition-all duration-1000 ease-in-out font-normal rounded-r-md mb-2 bg-gradient-to-r text-white hover:scale-x-105 hover:duration-500 cursor-pointer ${
@@ -70,6 +79,7 @@ const Bar = ({ project }) => {
       >
         <div className="py-4">
           <Project
+            id={project.id}
             title={project.title}
             barColor={project.barColor}
             coverImage={project.coverImage}
