@@ -10,7 +10,7 @@ const projectList = [
     coverImage: '/projects/invedent.png',
     url: 'https://www.invedent.com/',
     description:
-      'Invedent is an Australian-based startup which offers an inventory management and marketplace SaaS application that helps dental practices manage and order dental supplies.',
+      'Invedent is an Australian-based startup which offers an inventory management and e-commerce marketplace SaaS application that helps dental practices manage and order dental supplies.',
     companyName: 'Invedent',
     companySiteUrl: 'https://www.invedent.com/',
     techStack: [
@@ -27,7 +27,7 @@ const projectList = [
       'Docker',
       'AWS',
     ],
-    contribution: `I developed key features of the company’s software such as products management, pricing management, shop and inventory functionality, and more.<br/><br/>On top of that, I took ownership of the existing codebase and in less than a year, together with my team, we optimized up to roughly 80% of the codebase by converting all existing JavaScript to TypeScript, wrote unit tests, optimized page load times, and applied engineering design principles and best practices.`,
+    contribution: `I developed key features of the company’s software such as products management, pricing management, shop and inventory functionality, and more.<br/><br/>On top of that, I took ownership of the existing codebase and in less than a year, together with my team, we optimized up to roughly 80% of the codebase by converting all existing JavaScript to TypeScript, wrote unit tests, optimized page load times, and applied engineering design principles and best practices.<br/><br/>From what started off as a barebones app used by a limited number of users, when I first joined the company, now has 80+ dental practices subscribed to the service as of January 2024.`,
   },
   {
     id: 'butter-insurance',
@@ -50,7 +50,7 @@ const projectList = [
       'Jest',
     ],
     contribution:
-      'Together with one other dev engineer, we teamed up to revamp their old app. The old app went through a number of different past engineers which left numerous unknown bugs and a codebase that was difficult to add new features onto. We both decided to create a separate and fresh repository to build a more modern and optimized app, while also doing our best to implement new features onto the old app. In under two months, we were able to fully transition the old app to our more optimized and modern repository, and release to end-users.',
+      'Together with one other dev engineer, we teamed up to revamp their old app. The old app went through a number of different past engineers which left numerous unknown bugs and a codebase that was difficult to add new features onto. We both decided to create a separate and fresh repository to build a more modern and optimized app using Next.js, Prisma, and AWS, while also doing our best to implement new features onto the old app. In under two months, we were able to fully transition the old app to our more optimized and modern repository, and release to end-users.<br/><br/>We completed 3 full phases of the app within the span of a year. With each phase generating the business and app more revenue and users.',
   },
   {
     id: 'dtcc',
@@ -80,7 +80,7 @@ const projectList = [
     coverImage: '/projects/housecallmd.png',
     url: 'https://www.housecallmd.org/',
     description:
-      'Housecall MD is a top-notch on-demand urgent care provider in Washington State, and has branched out in California in mid 2023, to develop a comprehensive telehealth website that caters to both desktop and mobile users.<br/><br/>In addition to online telehealth services, HouseCall MD also offers in-person care and serves the assisted living facilities in the area.',
+      'Housecall MD is a CRM SaaS which offers on-demand urgent care services in Washington State, and has branched out in California in mid 2023, to develop a comprehensive telehealth website that caters to both desktop and mobile users.<br/><br/>In addition to online telehealth services, HouseCall MD also offers in-person care and serves the assisted living facilities in the area.',
     companyName: 'Yucaba',
     companySiteUrl: 'https://yucaba.com/',
     techStack: [
@@ -96,7 +96,7 @@ const projectList = [
       'Vercel',
     ],
     contribution:
-      'I contributed full stack development of their management system application creating pages like the admin page, profile page, appointment flow pages, login page, and more. Reusable components such as Button, Modal, Toast, Blog, Testimonial and more. Backend functionalities such as sending email with SendGrid, sms with Twilio, payment processing with Stripe, authentication, and CRUD operations across the app.',
+      'I contributed full-stack development of their platform, creating pages like the admin page, profile page, consultation and appointment flow pages, login page, and more. Reusable components such as Button, Modal, Toast, Blog, Testimonial and more. Backend functionalities such as user management and authentication with Supabase-Auth, sending emails with SendGrid, SMS with Twilio, payment processing with Stripe, and CRUD operations across the app using Next.js and Supabase.<br /><br />Our client, Housecall MD, came to us for the development of their system since day 1 of Yucaba back in 2021. They have expressed their satisfaction for our web services and has significantly grown in user-base. Up to this day, January 2024, they occasionally still asks Yucaba for more feature extensions.',
   },
   {
     id: 'alpha-md',
@@ -105,7 +105,7 @@ const projectList = [
     coverImage: '/projects/alphamd.png',
     url: 'https://www.alphamd.org/',
     description:
-      'From the guys of Housecall MD, Alpha MD is an online medical clinic based in the US that provides affordable and convenient access to testosterone, ED, and medical weightloss medications.',
+      'From the guys of Housecall MD, Alpha MD is a similar CRM SaaS which offers an online medical service based in the US that provides affordable and convenient access to testosterone, ED, and medical weightloss medications.',
     companyName: 'Yucaba',
     companySiteUrl: 'https://yucaba.com/',
     techStack: [
@@ -119,7 +119,7 @@ const projectList = [
       'Vercel',
     ],
     contribution:
-      'I developed backend functionalities such as email sending with SendGrid, SMS with Twilio, payment processing with Stripe, authentication, and various CRUD operations across the application.',
+      'I also contributed full-stack development of their platform, creating pages like the admin page, profile page, consultation and appointment flow pages, login page, and more. Backend functionalities such as user management and authentication with Supabase-Auth, sending emails with SendGrid, SMS with Twilio, payment processing with Stripe, and CRUD operations across the app using Next.js and Supabase.',
   },
   {
     id: 'melde-construction',
