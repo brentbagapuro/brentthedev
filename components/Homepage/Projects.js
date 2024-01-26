@@ -50,7 +50,7 @@ const projectList = [
       'Jest',
     ],
     contribution:
-      'Together with one other dev engineer, we teamed up to revamp their old app. The old app went through a number of different past engineers which left numerous unknown bugs and a codebase that was difficult to add new features onto. We both decided to create a separate and fresh repository to build a more modern and optimized app using Next.js, Prisma, and AWS, while also doing our best to implement new features onto the old app. In under two months, we were able to fully transition the old app to our more optimized and modern repository, and release to end-users.<br/><br/>We completed 3 full phases of the app within the span of a year. With each phase generating the business and app more revenue and users.',
+      'Together with one other dev engineer, we teamed up to revamp their old app. The old app went through a number of different past engineers which left numerous unknown bugs and a codebase that was difficult to add new features onto. We both decided to create a separate and fresh repository to build a more modern and optimized app using TypeScript, Next.js, Prisma, and AWS, while also doing our best to implement new features onto the old app. In under two months, we were able to fully transition the old app to our more optimized and modern repository, and release to end-users.<br/><br/>We completed 3 full phases of the app within the span of a year. With each phase generating the business and app more revenue and users.',
   },
   {
     id: 'dtcc',
