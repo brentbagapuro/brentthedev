@@ -39,10 +39,11 @@ const Homepage = () => {
           title="Drawpoint custom map"
           width="100%"
           height="400px"
-          frameborder="0"
-          allow="fullscreen"
-          webkitallow="fullscreen"
-          mozallow="fullscreen"
+          frameBorder="0"
+          allowFullScreen="true"
+          // allow="fullscreen"
+          // webkitallow="fullscreen"
+          // mozallow="fullscreen"
         ></iframe>
       </div>
       <Footer />
