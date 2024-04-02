@@ -45,6 +45,8 @@ const Homepage = () => {
           webkitallowfullscreen="true"
           mozallowfullscreen="true"
           allow="fullscreen"
+          webkitallow="fullscreen"
+          mozallow="fullscreen"
         ></iframe>
       </div>
       <Footer />
