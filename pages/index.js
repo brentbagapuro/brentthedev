@@ -21,6 +21,7 @@ const Homepage = () => {
       <div>
         Testing client app
         <iframe
+          id="drawpoint-iframe"
           // style={{
           //   position: 'fixed',
           //   top: '0px',
@@ -40,8 +41,8 @@ const Homepage = () => {
           width="100%"
           height="400px"
           frameBorder="0"
-          allowFullScreen="true"
-          // allow="fullscreen"
+          allowfullscreen="true"
+          allow="fullscreen"
           // webkitallow="fullscreen"
           // mozallow="fullscreen"
         ></iframe>
