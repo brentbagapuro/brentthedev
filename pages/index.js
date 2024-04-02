@@ -36,12 +36,13 @@ const Homepage = () => {
           //   overflow: 'hidden',
           //   zIndex: '999999',
           // }}
+          // src="http://localhost:3001/m/MOeFc3EI6QtNJmS3QmTP"
           src="https://stg-viewer.drawpoint.io/m/T7X58LarzrF3yiFK0M6J"
           title="Drawpoint custom map"
           width="100%"
           height="400px"
           frameBorder="0"
-          allowfullscreen="true"
+          allowFullScreen={true}
           allow="fullscreen"
           // webkitallow="fullscreen"
           // mozallow="fullscreen"
