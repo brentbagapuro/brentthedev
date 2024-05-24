@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useRef, useEffect } from 'react'
 import Hero from '@/components/Homepage/Hero'
 import Projects from '@/components/Homepage/Projects'
 import Footer from '@/components/Homepage/Footer'
@@ -15,11 +15,20 @@ const Homepage = () => {
       className="bg-gradient-to-r from-background to-secondary"
     >
       <Hero />
-      <div id="projects">
-        <Projects />
-      </div>
       <div>
         Testing client app
+        <iframe
+          src="https://viewer.drawpoint.io/m/JB9J4cpvpq7enHfqgaud"
+          title="Drawpoint custom map"
+          width="100%"
+          height="400px"
+          frameborder="0"
+          scrolling="no"
+          allowfullscreen="true"
+        ></iframe>
+      </div>
+      <div>
+        Testing client app 2
         <iframe
           id="drawpoint-iframe"
           // style={{
@@ -36,17 +45,22 @@ const Homepage = () => {
           //   overflow: 'hidden',
           //   zIndex: '999999',
           // }}
-          // src="http://localhost:3001/m/MOeFc3EI6QtNJmS3QmTP"
           src="https://stg-viewer.drawpoint.io/m/T7X58LarzrF3yiFK0M6J"
           title="Drawpoint custom map"
           width="100%"
           height="400px"
           frameBorder="0"
           allowFullScreen={true}
-          allow="fullscreen"
+          scrolling="no"
+          onMouseEnter={(e) => {
+            console.dir(e)
+          }}
           // webkitallow="fullscreen"
           // mozallow="fullscreen"
         ></iframe>
+      </div>
+      <div id="projects">
+        <Projects />
       </div>
       <Footer />
     </div>
