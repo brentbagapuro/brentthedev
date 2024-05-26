@@ -59,6 +59,18 @@ const Homepage = () => {
           // mozallow="fullscreen"
         ></iframe>
       </div>
+      <div>
+        Testing client app 3
+        <iframe
+          src="https://viewer.drawpoint.io/m/CG7KYQ2hZwFz2dhGT21l"
+          title="Drawpoint custom map"
+          width="100%"
+          height="400px"
+          frameborder="0"
+          scrolling="no"
+          allowfullscreen="true"
+        ></iframe>
+      </div>
       <div id="projects">
         <Projects />
       </div>
