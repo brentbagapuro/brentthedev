@@ -28,39 +28,19 @@ const Homepage = () => {
         ></iframe>
       </div>
       <div>
-        Testing client app 2
+        Testing client stg
         <iframe
-          id="drawpoint-iframe"
-          // style={{
-          //   position: 'fixed',
-          //   top: '0px',
-          //   left: '0px',
-          //   bottom: '0px',
-          //   right: '0px',
-          //   width: '100%',
-          //   height: '100%',
-          //   border: 'none',
-          //   margin: '0',
-          //   padding: '0',
-          //   overflow: 'hidden',
-          //   zIndex: '999999',
-          // }}
-          src="https://stg-viewer.drawpoint.io/m/T7X58LarzrF3yiFK0M6J"
+          src="https://stg-viewer.drawpoint.io/m/CG7KYQ2hZwFz2dhGT21l"
           title="Drawpoint custom map"
           width="100%"
           height="400px"
-          frameBorder="0"
-          allowFullScreen={true}
+          frameborder="0"
           scrolling="no"
-          onMouseEnter={(e) => {
-            console.dir(e)
-          }}
-          // webkitallow="fullscreen"
-          // mozallow="fullscreen"
+          allowfullscreen="true"
         ></iframe>
       </div>
       <div>
-        Testing client app 3
+        Testing client prod
         <iframe
           src="https://viewer.drawpoint.io/m/CG7KYQ2hZwFz2dhGT21l"
           title="Drawpoint custom map"
