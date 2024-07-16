@@ -35,7 +35,7 @@ const projectList = [
     barColor: 'from-background to-secondary/90',
     coverImage: '/projects/butter.png',
     url: 'https://www.butterinsurance.com.au/',
-    description: `Butter is an insurance SaaS that's distributed in Australia which aims to cover a number of product categories from tech devices, to jewellry, to collectibles, in just under 2 minutes.<br/><br/>Their app contains sleek step-by-step flows for creating product covers and claiming insurance. As well as a comprehensive view of all existing and expired covers and claims.`,
+    description: `Butter is an insurance SaaS that's distributed in Australia which aims to cover a number of product categories from tech devices, to jewellry, to collectibles, in just under 2 minutes.<br/><br/>The app has a sleek step-by-step flows for creating product covers and claiming insurance. As well as a comprehensive view of all existing and expired covers and claims.`,
     companyName: 'Butter Insurance',
     companySiteUrl: 'https://www.butterinsurance.com.au/',
     techStack: [
