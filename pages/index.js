@@ -39,10 +39,10 @@ const Homepage = () => {
           allowfullscreen="true"
         ></iframe>
       </div> */}
-      <div>
+      {/* <div>
         Testing client localhost
         <iframe
-          src="http://localhost:3001/m/HRTnG3CdxYP7WQPdJfLn"
+          src="https://stg-viewer.drawpoint.io/m/vqJXmykpUEwV2DQbyTQA"
           title="Drawpoint custom map"
           width="100%"
           height="400px"
@@ -50,7 +50,7 @@ const Homepage = () => {
           scrolling="no"
           allowfullscreen="true"
         ></iframe>
-      </div>
+      </div> */}
       <div id="projects">
         <Projects />
       </div>
