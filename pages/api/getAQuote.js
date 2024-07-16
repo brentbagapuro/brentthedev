@@ -10,8 +10,8 @@ export default async function handler(req, res) {
   try {
     const data = {
       destination: ['BS'],
-      startDate: '2024-07-22',
-      endDate: '2024-07-19',
+      startDate: '2024-07-19',
+      endDate: '2024-07-22',
       travellers: [
         {
           isMain: true,
