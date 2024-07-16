@@ -9,7 +9,7 @@ export default async function handler(req, res) {
 
   try {
     const data = {
-      destinations: ['BS'],
+      destination: ['BS'],
       startDate: '2024-07-22',
       endDate: '2024-07-19',
       travellers: [
