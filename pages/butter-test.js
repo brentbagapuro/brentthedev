@@ -12,7 +12,7 @@ const ButterTestPage = () => {
         className="bg-background border-2 border-secondary px-4 py-2 text-[#c1d4cd] hover:scale-125 hover:text-white hover:border-white ease-in-out duration-300"
         onClick={getAQuote}
       >
-        Get a quote
+        Create Quote
       </button>
     </div>
   )
