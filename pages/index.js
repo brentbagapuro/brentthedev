@@ -9,7 +9,7 @@ const Homepage = () => {
       className="bg-gradient-to-r from-background to-secondary"
     >
       <Hero />
-      <iframe
+      {/* <iframe
         src="https://qa-viewer-drawpoint.vercel.app/m/rF1hiCnOLuBZ6euzJoCE"
         title="Drawpoint custom map"
         width="100%"
@@ -17,7 +17,7 @@ const Homepage = () => {
         frameborder="0"
         scrolling="no"
         allowfullscreen="true"
-      ></iframe>
+      ></iframe> */}
       {/* <div>
         Testing client localhost
         <iframe
