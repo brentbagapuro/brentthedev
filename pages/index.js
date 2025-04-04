@@ -9,30 +9,15 @@ const Homepage = () => {
       className="bg-gradient-to-r from-background to-secondary"
     >
       <Hero />
-      {/* <div>
-        Testing client stg
-        <iframe
-          src="https://stg-viewer.drawpoint.io/m/CG7KYQ2hZwFz2dhGT21l"
-          title="Drawpoint custom map"
-          width="100%"
-          height="400px"
-          frameborder="0"
-          scrolling="no"
-          allowfullscreen="true"
-        ></iframe>
-      </div>
-      <div>
-        Testing client prod
-        <iframe
-          src="https://viewer.drawpoint.io/m/CG7KYQ2hZwFz2dhGT21l"
-          title="Drawpoint custom map"
-          width="100%"
-          height="400px"
-          frameborder="0"
-          scrolling="no"
-          allowfullscreen="true"
-        ></iframe>
-      </div> */}
+      <iframe
+        src="https://qa-viewer-drawpoint.vercel.app/m/rF1hiCnOLuBZ6euzJoCE"
+        title="Drawpoint custom map"
+        width="100%"
+        height="400px"
+        frameborder="0"
+        scrolling="no"
+        allowfullscreen="true"
+      ></iframe>
       {/* <div>
         Testing client localhost
         <iframe
